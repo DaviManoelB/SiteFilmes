@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #0f0f0f;
+    
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;  
+    
+    font-size: 30px;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    padding: 30px;
+}
+
+main h2, main h3 {
+    
+    margin: 20px 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    background-color: #9c99997e;
+    margin: 0px 100px 20px 100px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.painel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.painel div {
+    margin: 15px;
+    text-align: center;
+}
+
+.painel img {
+    width: 200px;
+    height: auto;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+
+.painel a {
+    text-decoration: none;
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.painel a:hover {
+    color: #fff;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.sobre {
+    margin: 30px;
+    color: #d6caca;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.sobre h3{
+    margin: 30px;
+    font-size: 30px;
+    
+}
+.sobre a{
+    justify-content: right;
+    text-align: end;
+}
+.sobre img{
+    border-radius: 50%;
+    
+}
+.sobre p{
+    margin: 0 100px;
+}
